@@ -23,7 +23,7 @@ Create a new Cloud9 environment with the following settings:
 
 * Name: AmplifyPhotos
 * Environment Type: EC2
-* Instance type: t2.small
+* Instance type: t3.small
 * Platform: Amazon Linux
 * Cost-saving setting: After one hour
 
@@ -36,7 +36,7 @@ To use Amplify on Cloud9, we need to add a configuration file to specify the def
 ``` bash
 cat <<END > ~/.aws/config
 [default]
-region=us-west-2
+region=ap-northeast-2
 END
 ```
 
