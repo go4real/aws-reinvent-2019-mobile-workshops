@@ -135,6 +135,11 @@ Before moving to the next module, a brief word on working with the Amplify comma
  ◯ not selected 2
 ```
 
+### Changing Java version
+$ sudo yum install -y java-1.8.0-openjdk-devel.x86_64
+$ sudo /usr/sbin/alternatives --config java 
+$ java -version
+
 Next, we will start to add AWS cloud services to power our photo album application:
 
 **[Adding Authentication >>](./1_Auth)**
