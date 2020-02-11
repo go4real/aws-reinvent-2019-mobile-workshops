@@ -16,6 +16,7 @@ amplify add api
 * Do you want to configure advanced settings for the GraphQL API __Yes, I want to make some additional changes.__
 * Configure additional auth type? __Yes__
 * Choose the additional authorization types your want to configure for the API __IAM__
+* Configure conflict detection? __No__
 * Do you have an annotated GraphQL schema? __No__
 * Do you want a guided schema creation? __Yes__
 * What best describes your project: __Single object with fields (e.g., “Todo” with ID, name, description)__
